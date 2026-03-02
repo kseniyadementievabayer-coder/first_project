@@ -1,0 +1,30 @@
+gitignore
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальное окружение
+env/
+venv/
+.venv/
+
+# Файлы данных (важно!)
+*.csv
+*.xlsx
+*.xls
+*.json
+*.xml
+
+# Временные файлы
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
